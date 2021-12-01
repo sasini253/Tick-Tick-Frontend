@@ -47,12 +47,17 @@ export default function App() {
     </View>
   );
 }
-
 const styles = StyleSheet.create({
-  container: {
+  ontainer: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+  },
+  content: {
+    flex: 1,
+    padding: 40,
+  },
+  list: {
+    flex: 1,
+    marginTop: 20,
   },
 });
